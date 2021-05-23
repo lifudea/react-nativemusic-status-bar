@@ -1,7 +1,7 @@
 {
   "name": "react-native-music-status-bar",
   "version": "1.0.0",
-  "description": "",
+  "description": "ReactNative音频状态栏播放组件",
   "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,11 +11,17 @@
     "react-native-music-status-bar"
   ],
   "author": "lfd",
-  "license": "",
+  "license": "ISC",
   "peerDependencies": {
     "@react-native-community/slider": "^3.0.3"
   },
   "devDependencies": {},
-  "dependencies": {
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifudea/react-nativemusic-status-bar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lifudea/react-nativemusic-status-bar/issues"
+  },
+  "homepage": "https://github.com/lifudea/react-nativemusic-status-bar#readme"
 }
