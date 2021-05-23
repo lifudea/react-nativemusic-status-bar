@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/inform_back_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/ic_launcher"/>
+        <LinearLayout
+            android:layout_width="172dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:id="@+id/infrom_title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World"/>
+            <!--        <TextView-->
+            <!--          android:id="@+id/inform_time_text"-->
+            <!--          android:layout_width="match_parent"-->
+            <!--          android:layout_height="wrap_content"-->
+            <!--          android:text="Hello World"/>-->
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/inform_start_icon"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:src="@drawable/music_start_icon"
+            />
+        <ImageView
+            android:id="@+id/inform_start_close_icon"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:src="@drawable/musicnotifyclose"
+            android:layout_marginLeft="16dp"
+            />
+    </LinearLayout>
+</LinearLayout>

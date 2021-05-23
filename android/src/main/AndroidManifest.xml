@@ -1,0 +1,14 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.reactlibrary">
+
+    <application>
+        <!--    消息通知:接收play_pre消息-->
+        <receiver android:name=".utils.XMPlayerReceiver">
+            <intent-filter>
+                <action android:name="changeMusicState"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
+  
